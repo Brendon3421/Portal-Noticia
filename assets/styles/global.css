@@ -52,6 +52,7 @@ img {
 
 main {
     margin: 40px;
+    gap: 80px;
 }
 
 .content-tag {
