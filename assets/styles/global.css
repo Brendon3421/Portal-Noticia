@@ -40,15 +40,15 @@ h3 {
     font: inherit;
 }
 
-.grid {
-    display: grid;
+img{
+    max-width: 100%;
 }
 
-.grid-flow-col {
-    grid-auto-flow: column;
-}
 .container{
     width: 1280px;
     padding-inline: 32px;
     margin-inline: auto;
+}
+main{
+    margin: 40px;
 }
