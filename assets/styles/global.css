@@ -24,13 +24,31 @@ body {
     color: var(--text-color-primary);
     background-color: var(--bg-color);
 }
-a{
+
+a {
     text-decoration: 0;
     color: inherit;
 }
-a:hover{
+
+a:hover {
     color: var(--brand-color-light);
 }
-h1, {
+
+h1,
+h2,
+h3 {
     font: inherit;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+.container{
+    width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
 }
