@@ -53,6 +53,11 @@ img {
 main {
     margin: 40px;
     gap: 80px;
+    grid-template-areas: 
+    "featured featured"
+    "weekly weekly"
+    "ai aside"
+    ;
 }
 
 .content-tag {
