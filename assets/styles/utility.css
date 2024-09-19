@@ -27,6 +27,11 @@
 .text-lg {
     font: var(--heading3)
 }
+
 .text-small {
     font: var(--span)
+}
+
+.gap-32 {
+    gap: 32px;
 }
