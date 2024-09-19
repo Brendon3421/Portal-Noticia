@@ -9,7 +9,6 @@
         position: relative;
         overflow: hidden;
         border-radius: 4px;
-
         &::before {
             content: "";
             position: absolute;
@@ -20,6 +19,14 @@
                  transparent 0%,
               #020617 100%
            );
+        }
+        figcaption{
+            position: absolute;
+            bottom: 0;
+            padding: 24px;
+            h2{
+                margin-top: 2px;
+            }
         }
 
     }
